@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Asif Iqbal</title>
+  <link rel="stylesheet" href="contacts.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+</head>
+<body >
+  <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+   <!-- Navbar -->
+    <header class="sticky-header">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/Images/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <ul class="nav-links">
+          <li><a href="home.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="experience.html" class="nav-link">Experience</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="project.html" class="nav-link">Projects</a></li>
+          <li><a href="research-publication.html" class="nav-link">Research</a></li>
+          <li><a href="certificates-awards.html" class="nav-link">Accomplishments</a></li>
+          <li><a href="contacts.html" class="active nav-link contact-btn">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  <div class="contact-section">
+    <!-- Left Side: Info -->
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p><span>Email:</span> asifiqbalsagor123@gmail.com</p>
+      <p><span>Phone:</span> +8801862-444958</p>
+      <p><span>Address:</span><br>
+        Chittagong University of Engineering and Technology (CUET),<br>
+        Chittagong, Bangladesh
+      </p>
+      <div class="social-icons">
+        <a href="mailto:asifiqbalsagor123@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/iamasifiqbal" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/md-asif-iqbal-9a7b8a176/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.researchgate.net/profile/Asif-Iqbal-44" target="_blank"><i class="fab fa-researchgate"></i></a>
+        <a href="https://scholar.google.com/citations?user=pQV9F7IAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+      </div>
+    </div>
+    
+    <!-- Right Side: Form -->
+    <div class="contact-form">
+      <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Your full name">
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Your email address">
+        
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Write something..."></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    
+  </div>
+    <footer class="site-footer">
+    <div class="container">
+      <small>©️ <span id="year"></span> Md Asif Iqbal — All rights reserved.</small>
+    </div>
+  </footer>
+  <script>
+    // Update year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  
+</body>
+</html>
